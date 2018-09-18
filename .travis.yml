@@ -13,6 +13,7 @@ deploy:
     access_key_id: $aws_access_key_id
     secret_access_key: $aws_secret_access_key
     bucket: $aws_site_s3_bucket
+    region: $aws_site_s3_bucket
     local_dir: build
     acl: public_read
     on:
