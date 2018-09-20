@@ -13,13 +13,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">applylab.io</h1>
+          <h1 className="App-title">pplylab.io</h1>
+          <div className="Promotion">
+            <h3>INNOVATION</h3>
+            <h3>DIGITAL SOLUTIONS</h3>
+            <h3>OPEN SOURCE</h3>
+          </div>
         </header>
         <p className="App-intro">
           Please write to <a href="mailto:info@applylab.io">info@applylab.io</a> for your digital solutions needs.
-        </p>
-        <p>
-          <h2>INNOVATION | DIGITAL SOLUTIONS | OPEN SOURCE</h2>
         </p>
         <p>
           <FontAwesomeIcon icon="code-branch" size="2x" className="Bubble-animation"/>

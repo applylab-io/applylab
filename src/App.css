@@ -9,13 +9,25 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: auto;
   padding: 20px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .App-title {
   font-size: 1.5em;
+  color: red;
+}
+
+div.Promotion {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .App-intro {
